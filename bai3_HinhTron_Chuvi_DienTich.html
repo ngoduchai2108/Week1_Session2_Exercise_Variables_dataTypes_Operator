@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+</head>
+<body>
+<script>
+    var R;
+    var R = parseInt(prompt("Nhap vao Ban Kinh Hinh Tron"));
+    var Chuvi = 2 * 3.14 * R;
+    var DienTich = 3.14 * R * R;
+</script>
+
+<button onclick="Show3();" type="button">Hien Thi Ket Qua</button>
+<div id="ket_qua"></div>
+
+<script>
+    function Show3() {
+        document.getElementById('ket_qua').innerHTML = "Ban Kinh Hinh Tron la:" + "   " + R + "<br/>" + "Chu Vi Hinh Tron la:" + "   " + Chuvi + "<br/>" + "Dien Tich Hinh Tron la:" + "   " + DienTich;
+
+    }
+</script>
+
+</body>
+</html>
